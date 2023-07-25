@@ -1,9 +1,9 @@
 <?php
 
-namespace Psr\Http\Client;
+namespace Impresee\Psr\Http\Client;
 
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Impresee\Psr\Http\Message\RequestInterface;
+use Impresee\Psr\Http\Message\ResponseInterface;
 
 interface ClientInterface
 {
@@ -14,7 +14,7 @@ interface ClientInterface
      *
      * @return ResponseInterface
      *
-     * @throws \Psr\Http\Client\ClientExceptionInterface If an error happens while processing the request.
+     * @throws \Impresee\Psr\Http\Client\ClientExceptionInterface If an error happens while processing the request.
      */
     public function sendRequest(RequestInterface $request): ResponseInterface;
 }

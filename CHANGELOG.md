@@ -13,10 +13,10 @@ First stable release. No changes since 0.3.0.
 ## 0.3.0
 
 Added Interface suffix on exceptions
- 
-## 0.2.0 
 
-All exceptions are in `Psr\Http\Client` namespace
+## 0.2.0
+
+All exceptions are in `Impresee\Psr\Http\Client` namespace
 
 ## 0.1.0
 

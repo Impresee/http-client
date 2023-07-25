@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bd87bb49998b0b098742b718b851dd6c",
+    "packages": [
+        {
+            "name": "psr/http-message",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Impresee/http-message.git",
+                "reference": "c24c9fd556aacb258e53d7be1b827f5c60eb8815"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Impresee/http-message/zipball/c24c9fd556aacb258e53d7be1b827f5c60eb8815",
+                "reference": "c24c9fd556aacb258e53d7be1b827f5c60eb8815",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Impresee\\Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "support": {
+                "source": "https://github.com/Impresee/http-message/tree/1.0"
+            },
+            "time": "2023-06-09T22:12:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "psr/http-message": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0 || ^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
